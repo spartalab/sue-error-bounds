@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pandas
+tqdm 
+networkx
+sympy # Only needed for appendix/tightness.py

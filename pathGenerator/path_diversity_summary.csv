@@ -1,0 +1,5 @@
+network,num_od,num_od_multi,mean_overlap,mean_edge_jaccard,mean_cost_sd,mean_cost_cv,mean_cost_range_ratio,pct_flagged_overlap_ge_0.8
+Sioux Falls,528,528,0.288756,0.163904,5.001735,0.209882,2.630529,100.000
+Anaheim,1406,1406,0.618231,0.455270,0.762862,0.064101,0.426554,100.000
+Chicago Sketch,93135,93135,0.605266,0.434145,1.463439,0.048313,0.280929,99.842
+Winnipeg,4344,4344,0.784386,0.658549,0.256548,0.027105,0.132221,100.000
