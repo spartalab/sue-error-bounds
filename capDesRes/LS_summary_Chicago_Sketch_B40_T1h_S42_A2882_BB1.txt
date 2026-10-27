@@ -1,0 +1,22 @@
+Network: Chicago Sketch, theta = 0.5, budget = 40 miles, time limit = 1 h, seed = 42, step rule = BB1
+
+Evaluations without bounds: 237 in 3611 s
+Evaluations with bounds: 453 in 3603 s
+Pruned with bounds: 433 of 453 (96%)
+    pruned at RGAP 0.0001: 88
+    pruned at RGAP 1e-05: 324
+    pruned at RGAP 1e-06: 18
+    pruned at RGAP 1e-07: 2
+    pruned at RGAP 1e-08: 1
+    pruned again from a cached bound: 0
+Pruned at an RGAP tighter than 0.0001: 345
+Neighbours solved to RGAP 1e-12 with bounds: 19, of which accepted: 19
+Same moves in the first 237 evaluations: True
+
+Time of the first 237 evaluations: 2003 s with bounds, 3611 s without (45% less)
+Net benefit of the best design after 1 h: $137.0M with bounds, $120.9M without
+
+Time to reach RGAP 0.0001, as a share of a full solve: 39%
+    (mean time of a design pruned at 0.0001 with bounds: 5.91 s,
+     mean time of a neighbour solved to 1e-12 without bounds: 15.23 s)
+First 237 evaluations if every rejected neighbour had been pruned at 0.0001: 1571 s (57% less than without bounds)

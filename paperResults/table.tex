@@ -1,0 +1,90 @@
+% Rows for the tables of Section sec:results, written by genPaperPlots.py.
+% Paste each block between \midrule and \bottomrule of its table.
+% theta columns: 0.5, 1.5; RGAP rows: 1e-04, 1e-06, 1e-08.
+
+% ===== tab:4_res: Networks and path sets (add the CV and J columns by hand) =====
+Sioux Falls & 528 & 76 & 24 & 360600 & 10560 & Yen \\
+Anaheim & 1406 & 914 & 416 & 104694 & 28120 & Yen \\
+Winnipeg & 4344 & 2836 & 1052 & 64775 & 86880 & Yen \\
+Chicago Sketch & 93135 & 2950 & 933 & 1137493 & 1862700 & Yen \\
+
+% ===== tab:4_cost: Computational cost of the bounds =====
+Iteration of the algorithm & $1\times10^{-2}$ & $3\times10^{-2}$ & $5\times10^{-1}$ \\
+Objective, $\gamma(\BFh)$ & $2\times10^{-3}$ & $7\times10^{-3}$ & $9\times10^{-2}$ \\
+Path flow, $m_h$ & $3\times10^{-6}$ & $4\times10^{-6}$ & $1\times10^{-5}$ \\
+Link flow, $m_a^{l}$ & $5\times10^{-4}$ & $2\times10^{-3}$ & $2\times10^{-3}$ \\
+Link cost, $L_a^{l}m_a^{l}$ & $4\times10^{-4}$ & $1\times10^{-3}$ & $1\times10^{-3}$ \\
+TSTT & $1\times10^{-3}$ & $4\times10^{-3}$ & $6\times10^{-2}$ \\
+All bounds & $4\times10^{-3}$ & $1\times10^{-2}$ & $2\times10^{-1}$ \\
+Time in bounds (\%) & $43$ & $41$ & $32$ \\
+
+% ===== tab:4_objpath: Objective and path flow bounds =====
+Sioux & $10^{-4}$ & $9\times10^{-6}$ & $9\times10^{-6}$ & $8\times10^{-4}$ & $2\times10^{-1}$ & $2\times10^{-3}$ & $2\times10^{-3}$ & $1\times10^{-2}$ & $4\times10^{0}$ \\
+Falls & $10^{-6}$ & $1\times10^{-8}$ & $1\times10^{-8}$ & $1\times10^{-5}$ & $8\times10^{-3}$ & $1\times10^{-6}$ & $1\times10^{-6}$ & $5\times10^{-5}$ & $1\times10^{-1}$ \\
+ & $10^{-8}$ & $3\times10^{-11}$ & $3\times10^{-11}$ & $2\times10^{-7}$ & $3\times10^{-4}$ & $3\times10^{-8}$ & $3\times10^{-8}$ & $5\times10^{-7}$ & $1\times10^{-2}$ \\
+\addlinespace
+Anaheim & $10^{-4}$ & $1\times10^{-6}$ & $3\times10^{-6}$ & $4\times10^{-2}$ & $4\times10^{-1}$ & $2\times10^{-6}$ & $3\times10^{-6}$ & $4\times10^{-2}$ & $4\times10^{-1}$ \\
+ & $10^{-6}$ & $1\times10^{-10}$ & $1\times10^{-10}$ & $4\times10^{-4}$ & $3\times10^{-3}$ & $3\times10^{-10}$ & $3\times10^{-10}$ & $5\times10^{-4}$ & $4\times10^{-3}$ \\
+ & $10^{-8}$ & $7\times10^{-15}$ & $1\times10^{-14}$ & $2\times10^{-6}$ & $3\times10^{-5}$ & $7\times10^{-14}$ & $8\times10^{-14}$ & $7\times10^{-6}$ & $6\times10^{-5}$ \\
+\addlinespace
+Winnipeg & $10^{-4}$ & $8\times10^{-7}$ & $8\times10^{-7}$ & $5\times10^{-3}$ & $2\times10^{-1}$ & $2\times10^{-5}$ & $2\times10^{-5}$ & $6\times10^{-2}$ & $2\times10^{0}$ \\
+ & $10^{-6}$ & $6\times10^{-11}$ & $6\times10^{-11}$ & $1\times10^{-4}$ & $2\times10^{-3}$ & $7\times10^{-7}$ & $7\times10^{-7}$ & $1\times10^{-3}$ & $3\times10^{-1}$ \\
+ & $10^{-8}$ & $5\times10^{-14}$ & $9\times10^{-14}$ & $5\times10^{-6}$ & $8\times10^{-5}$ & $1\times10^{-9}$ & $1\times10^{-9}$ & $1\times10^{-5}$ & $1\times10^{-2}$ \\
+\addlinespace
+Chicago & $10^{-4}$ & $1\times10^{-5}$ & $2\times10^{-5}$ & $3\times10^{-2}$ & $8\times10^{-1}$ & $7\times10^{-5}$ & $7\times10^{-5}$ & $5\times10^{-2}$ & $2\times10^{0}$ \\
+Sketch & $10^{-6}$ & $2\times10^{-10}$ & $3\times10^{-10}$ & $1\times10^{-4}$ & $4\times10^{-3}$ & $4\times10^{-12}$ & $2\times10^{-11}$ & $1\times10^{-5}$ & $1\times10^{-3}$ \\
+ & $10^{-8}$ & $6\times10^{-16}$ & $2\times10^{-15}$ & $1\times10^{-7}$ & $9\times10^{-6}$ & $2\times10^{-15}$ & $1\times10^{-14}$ & $5\times10^{-7}$ & $3\times10^{-5}$ \\
+
+% ===== tab:4_link: Link flow and link cost bounds =====
+Sioux Falls & Link flow & $10^{-4}$ & $3\times10^{-4}$ & $5\times10^{-1}$ & $7\times10^{-3}$ & $1\times10^{1}$ \\
+ &  & $10^{-6}$ & $6\times10^{-6}$ & $2\times10^{-2}$ & $3\times10^{-5}$ & $2\times10^{-1}$ \\
+ &  & $10^{-8}$ & $9\times10^{-8}$ & $8\times10^{-4}$ & $2\times10^{-7}$ & $3\times10^{-2}$ \\
+ & Link cost & $10^{-4}$ & $4\times10^{-4}$ & $6\times10^{-1}$ & $5\times10^{-3}$ & $2\times10^{1}$ \\
+ &  & $10^{-6}$ & $1\times10^{-5}$ & $2\times10^{-2}$ & $1\times10^{-4}$ & $2\times10^{-1}$ \\
+ &  & $10^{-8}$ & $2\times10^{-7}$ & $9\times10^{-4}$ & $6\times10^{-7}$ & $2\times10^{-2}$ \\
+\addlinespace
+Anaheim & Link flow & $10^{-4}$ & $8\times10^{-3}$ & $3\times10^{-1}$ & $1\times10^{-2}$ & $4\times10^{-1}$ \\
+ &  & $10^{-6}$ & $4\times10^{-5}$ & $2\times10^{-3}$ & $8\times10^{-5}$ & $4\times10^{-3}$ \\
+ &  & $10^{-8}$ & $6\times10^{-7}$ & $2\times10^{-5}$ & $1\times10^{-6}$ & $6\times10^{-5}$ \\
+ & Link cost & $10^{-4}$ & $2\times10^{-2}$ & $1\times10^{-1}$ & $1\times10^{-2}$ & $9\times10^{-2}$ \\
+ &  & $10^{-6}$ & $4\times10^{-5}$ & $8\times10^{-4}$ & $3\times10^{-5}$ & $9\times10^{-4}$ \\
+ &  & $10^{-8}$ & $1\times10^{-6}$ & $8\times10^{-6}$ & $6\times10^{-7}$ & $1\times10^{-5}$ \\
+\addlinespace
+Winnipeg & Link flow & $10^{-4}$ & $6\times10^{-4}$ & $1\times10^{-1}$ & $1\times10^{-2}$ & $1\times10^{0}$ \\
+ &  & $10^{-6}$ & $2\times10^{-5}$ & $1\times10^{-3}$ & $3\times10^{-4}$ & $2\times10^{-1}$ \\
+ &  & $10^{-8}$ & $2\times10^{-6}$ & $4\times10^{-5}$ & $1\times10^{-6}$ & $8\times10^{-3}$ \\
+ & Link cost & $10^{-4}$ & $9\times10^{-4}$ & $6\times10^{-2}$ & $5\times10^{-3}$ & $4\times10^{-1}$ \\
+ &  & $10^{-6}$ & $1\times10^{-5}$ & $5\times10^{-4}$ & $3\times10^{-4}$ & $7\times10^{-2}$ \\
+ &  & $10^{-8}$ & $1\times10^{-6}$ & $2\times10^{-5}$ & $6\times10^{-7}$ & $3\times10^{-3}$ \\
+\addlinespace
+Chicago Sketch & Link flow & $10^{-4}$ & $5\times10^{-3}$ & $2\times10^{0}$ & $7\times10^{-3}$ & $7\times10^{0}$ \\
+ &  & $10^{-6}$ & $8\times10^{-5}$ & $1\times10^{-2}$ & $1\times10^{-5}$ & $3\times10^{-3}$ \\
+ &  & $10^{-8}$ & $1\times10^{-7}$ & $3\times10^{-5}$ & $2\times10^{-7}$ & $9\times10^{-5}$ \\
+ & Link cost & $10^{-4}$ & $3\times10^{-2}$ & $2\times10^{0}$ & $1\times10^{-2}$ & $3\times10^{1}$ \\
+ &  & $10^{-6}$ & $1\times10^{-4}$ & $5\times10^{-3}$ & $3\times10^{-5}$ & $9\times10^{-4}$ \\
+ &  & $10^{-8}$ & $4\times10^{-7}$ & $1\times10^{-5}$ & $1\times10^{-6}$ & $3\times10^{-5}$ \\
+
+% ===== tab:4_tstt: TSTT bounds =====
+Sioux Falls & $10^{-4}$ & $4\times10^{-4}$ & $8\times10^{-1}$ & $7\times10^{-3}$ & $2\times10^{1}$ \\
+ & $10^{-6}$ & $4\times10^{-6}$ & $3\times10^{-2}$ & $1\times10^{-5}$ & $5\times10^{-1}$ \\
+ & $10^{-8}$ & $2\times10^{-8}$ & $1\times10^{-3}$ & $2\times10^{-7}$ & $6\times10^{-2}$ \\
+\addlinespace
+Anaheim & $10^{-4}$ & $4\times10^{-3}$ & $3\times10^{-2}$ & $3\times10^{-3}$ & $3\times10^{-2}$ \\
+ & $10^{-6}$ & $8\times10^{-6}$ & $2\times10^{-4}$ & $7\times10^{-6}$ & $3\times10^{-4}$ \\
+ & $10^{-8}$ & $8\times10^{-8}$ & $2\times10^{-6}$ & $7\times10^{-8}$ & $5\times10^{-6}$ \\
+\addlinespace
+Winnipeg & $10^{-4}$ & $7\times10^{-5}$ & $2\times10^{-2}$ & $3\times10^{-3}$ & $2\times10^{-1}$ \\
+ & $10^{-6}$ & $2\times10^{-6}$ & $1\times10^{-4}$ & $2\times10^{-5}$ & $3\times10^{-2}$ \\
+ & $10^{-8}$ & $3\times10^{-7}$ & $6\times10^{-6}$ & $2\times10^{-7}$ & $1\times10^{-3}$ \\
+\addlinespace
+Chicago Sketch & $10^{-4}$ & $2\times10^{-3}$ & $3\times10^{-1}$ & $3\times10^{-3}$ & $2\times10^{0}$ \\
+ & $10^{-6}$ & $6\times10^{-7}$ & $1\times10^{-3}$ & $4\times10^{-7}$ & $3\times10^{-4}$ \\
+ & $10^{-8}$ & $5\times10^{-9}$ & $3\times10^{-6}$ & $1\times10^{-8}$ & $8\times10^{-6}$ \\
+
+% ===== tab:4_convergence: c with bound <= c ||h - hat h||^p (p = 2 for gamma, 1 otherwise), theta = 0.5 =====
+% columns: Network & objective gamma(h) & path flow m_h & link flow & TSTT
+Sioux Falls & $1\times10^{3}$ & $2\times10^{3}$ & $2\times10^{4}$ & $3\times10^{6}$ \\
+Anaheim & $1\times10^{-1}$ & $1\times10^{1}$ & $4\times10^{2}$ & $6\times10^{2}$ \\
+Winnipeg & $1\times10^{1}$ & $5\times10^{1}$ & $3\times10^{3}$ & $9\times10^{3}$ \\
+Chicago Sketch & $1\times10^{1}$ & $2\times10^{2}$ & $9\times10^{3}$ & $8\times10^{4}$ \\
+

@@ -1,0 +1,168 @@
+======================================================================
+NETWORK: Sioux Falls
+======================================================================
+Network file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Sioux Falls//network.dat
+Total demand: 360600.0
+Mean demand: 626.0416666666666
+Demand file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Sioux Falls//demand.dat
+24 nodes
+76 links
+576 OD pairs
+24 zones
+Loaded 528 OD pairs from /home/debojjalb/repos/SUE_Global_Bounds/Paths/allPathsODCache_20_Sioux_Falls.pkl
+
+Paths per OD distribution:
+   20 paths : 528 OD pairs
+
+OD pairs with >= 2 paths: 528
+Overlap interpretation: 0 = disjoint, 1 = identical
+
+  Mean pairwise EDGE Jaccard (per OD)
+    mean=0.164  median=0.158  p10=0.125  p90=0.207  min=0.100  max=0.295
+  Max  pairwise EDGE Jaccard (per OD)
+    mean=0.656  median=0.667  p10=0.600  p90=0.700  min=0.500  max=0.769
+  Mean edge overlap ratio shared/min (per OD)
+    mean=0.289  median=0.280  p10=0.225  p90=0.361  min=0.186  max=0.479
+  Max  edge overlap ratio shared/min (per OD)
+    mean=0.857  median=0.857  p10=0.833  p90=0.889  min=0.800  max=0.909
+  Length ratio (longest/shortest, in edges)
+    mean=3.904  median=3.000  p10=1.800  p90=9.000  min=1.500  max=12.000
+
+  Free-flow cost SD (per OD)
+    mean=5.002  median=4.856  p10=2.700  p90=7.264  min=1.694  max=9.271
+  Free-flow cost CV = SD/mean (per OD)
+    mean=0.210  median=0.217  p10=0.117  p90=0.296  min=0.063  max=0.359
+  Cost range ratio (max-min)/min (per OD)
+    mean=2.631  median=1.545  p10=0.526  p90=6.000  min=0.300  max=17.000
+
+OD pairs with some path-pair overlap >= 0.8: 528 / 528 (100.0%)
+
+======================================================================
+NETWORK: Anaheim
+======================================================================
+Network file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Anaheim//network.dat
+Total demand: 104694.4
+Mean demand: 74.46258890469416
+Demand file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Anaheim//demand.dat
+416 nodes
+914 links
+1406 OD pairs
+38 zones
+Loaded 1406 OD pairs from /home/debojjalb/repos/SUE_Global_Bounds/Paths/allPathsODCache_20_Anaheim.pkl
+
+Paths per OD distribution:
+   20 paths : 1406 OD pairs
+
+OD pairs with >= 2 paths: 1406
+Overlap interpretation: 0 = disjoint, 1 = identical
+
+  Mean pairwise EDGE Jaccard (per OD)
+    mean=0.455  median=0.416  p10=0.252  p90=0.731  min=0.131  max=0.851
+  Max  pairwise EDGE Jaccard (per OD)
+    mean=0.854  median=0.870  p10=0.778  p90=0.909  min=0.556  max=0.932
+  Mean edge overlap ratio shared/min (per OD)
+    mean=0.618  median=0.595  p10=0.412  p90=0.851  min=0.258  max=0.926
+  Max  edge overlap ratio shared/min (per OD)
+    mean=0.945  median=0.952  p10=0.917  p90=0.968  min=0.800  max=0.976
+  Length ratio (longest/shortest, in edges)
+    mean=1.829  median=1.500  p10=1.120  p90=2.857  min=1.000  max=9.333
+
+  Free-flow cost SD (per OD)
+    mean=0.763  median=0.565  p10=0.298  p90=1.522  min=0.000  max=3.839
+  Free-flow cost CV = SD/mean (per OD)
+    mean=0.064  median=0.040  p10=0.016  p90=0.149  min=0.000  max=0.344
+  Cost range ratio (max-min)/min (per OD)
+    mean=0.427  median=0.154  p10=0.061  p90=0.881  min=0.000  max=26.673
+
+OD pairs with some path-pair overlap >= 0.8: 1406 / 1406 (100.0%)
+
+======================================================================
+NETWORK: Chicago Sketch
+======================================================================
+Network file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Chicago Sketch//network.dat
+Total demand: 1260907.4400000002
+Mean demand: 8.824322485828262
+Demand file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Chicago Sketch//demand.dat
+933 nodes
+2950 links
+142890 OD pairs
+386 zones
+Loaded 93135 OD pairs from /home/debojjalb/repos/SUE_Global_Bounds/Paths/allPathsODCache_20_Chicago_Sketch.pkl
+
+Paths per OD distribution:
+   20 paths : 93135 OD pairs
+
+OD pairs with >= 2 paths: 93135
+Overlap interpretation: 0 = disjoint, 1 = identical
+
+  Mean pairwise EDGE Jaccard (per OD)
+    mean=0.434  median=0.414  p10=0.304  p90=0.597  min=0.213  max=0.787
+  Max  pairwise EDGE Jaccard (per OD)
+    mean=0.787  median=0.800  p10=0.692  p90=0.870  min=0.556  max=0.932
+  Mean edge overlap ratio shared/min (per OD)
+    mean=0.605  median=0.587  p10=0.481  p90=0.761  min=0.319  max=0.893
+  Max  edge overlap ratio shared/min (per OD)
+    mean=0.917  median=0.923  p10=0.875  p90=0.955  min=0.750  max=0.976
+  Length ratio (longest/shortest, in edges)
+    mean=1.410  median=1.286  p10=1.130  p90=1.800  min=1.000  max=4.667
+
+  Free-flow cost SD (per OD)
+    mean=1.463  median=1.041  p10=0.586  p90=2.920  min=0.073  max=15.528
+  Free-flow cost CV = SD/mean (per OD)
+    mean=0.048  median=0.026  p10=0.011  p90=0.121  min=0.001  max=0.418
+  Cost range ratio (max-min)/min (per OD)
+    mean=0.281  median=0.098  p10=0.040  p90=0.544  min=0.004  max=14.665
+
+OD pairs with some path-pair overlap >= 0.8: 92988 / 93135 (99.8%)
+
+======================================================================
+NETWORK: Winnipeg
+======================================================================
+Network file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Winnipeg//network.dat
+Total demand: 64784.0
+Mean demand: 14.910011507479862
+Demand file converted and saved to /home/debojjalb/repos/SUE_Global_Bounds/testNetworks/Winnipeg//demand.dat
+1040 nodes
+2836 links
+4345 OD pairs
+141 zones
+Loaded 4344 OD pairs from /home/debojjalb/repos/SUE_Global_Bounds/Paths/allPathsODCache_20_Winnipeg.pkl
+
+Paths per OD distribution:
+   20 paths : 4344 OD pairs
+
+OD pairs with >= 2 paths: 4344
+Overlap interpretation: 0 = disjoint, 1 = identical
+
+  Mean pairwise EDGE Jaccard (per OD)
+    mean=0.659  median=0.726  p10=0.337  p90=0.866  min=0.115  max=0.921
+  Max  pairwise EDGE Jaccard (per OD)
+    mean=0.884  median=0.893  p10=0.812  p90=0.941  min=0.625  max=0.960
+  Mean edge overlap ratio shared/min (per OD)
+    mean=0.784  median=0.856  p10=0.504  p90=0.934  min=0.234  max=0.961
+  Max  edge overlap ratio shared/min (per OD)
+    mean=0.958  median=0.962  p10=0.929  p90=0.980  min=0.833  max=0.986
+  Length ratio (longest/shortest, in edges)
+    mean=1.415  median=1.174  p10=1.043  p90=2.000  min=1.021  max=11.333
+
+  Free-flow cost SD (per OD)
+    mean=0.257  median=0.011  p10=0.006  p90=0.802  min=0.003  max=6.493
+  Free-flow cost CV = SD/mean (per OD)
+    mean=0.027  median=0.001  p10=0.000  p90=0.094  min=0.000  max=0.464
+  Cost range ratio (max-min)/min (per OD)
+    mean=0.132  median=0.004  p10=0.001  p90=0.344  min=0.000  max=7.805
+
+OD pairs with some path-pair overlap >= 0.8: 4344 / 4344 (100.0%)
+
+======================================================================
+CROSS-NETWORK SUMMARY
+======================================================================
+Network                  ODs    meanOv   meanJac    costCV    costRR   %flag
+Sioux Falls              528     0.289     0.164     0.210     2.631   100.0
+Anaheim                 1406     0.618     0.455     0.064     0.427   100.0
+Chicago Sketch         93135     0.605     0.434     0.048     0.281    99.8
+Winnipeg                4344     0.784     0.659     0.027     0.132   100.0
+
+Saved: /home/debojjalb/repos/SUE_Global_Bounds/pathGenerator/path_diversity_summary.csv
+Saved: /home/debojjalb/repos/SUE_Global_Bounds/pathGenerator/path_diversity_per_od.csv
+Saved: /home/debojjalb/repos/SUE_Global_Bounds/pathGenerator/path_diversity_log.txt
